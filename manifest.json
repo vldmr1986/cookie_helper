@@ -1,0 +1,11 @@
+{
+    "name": "Cookie Handler",
+    "manifest_version": 3,
+    "version": "1.0",
+    "permissions": ["cookies", "clipboard-write"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
